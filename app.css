@@ -1,0 +1,138 @@
+body{
+    color: white;
+        height: 100%;
+}
+nav{
+    margin-right: -20px;
+}
+.row{
+    max-width: 100%;
+    margin-bottom: 0;
+    
+}
+.logo{
+    position: absolute;
+    height:100px;
+    width: auto;
+    float: left; 
+    margin-left: -90px;
+}
+.main-nav{
+    width: 100%;
+    height: 50px;
+    list-style:none;
+    background:#000080;
+    color : white!important;
+    text-align: center;
+}
+.main-nav li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left:50px;
+}
+.btn-login{
+    display: inline-block;
+    margin-left: 100px;
+    padding: 10px 30px;
+    font-weight: 300;
+    border-radius: 500px;
+    text-decoration: none;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn-login:hover,
+.btn-login:active,
+{    
+    border: 1px solid #fff;
+    color:  white !important;
+}
+.front{
+    margin-top: -18px;
+    overflow: hidden;
+    background-size: cover;
+    max-width: 100%;
+    color: white;
+    background-attachment: fixed;
+}
+.box{
+    position: relative;
+    width: 320px;
+    background: #000080;
+    color: wheat;
+    padding : 20px;
+    text-align: center;
+    top: -50px;
+}
+.order{
+    margin-top: 40px;
+    position: relative;
+    right: -40px;
+}
+.dish{
+    overflow: hidden;
+}
+.middle {
+    
+    background-image: url(img/3.jpg);
+    max-width:100%;
+    width:auto;
+    height: auto;
+    background-image: cover ;
+    background-repeat: no-repeat;
+    position: center;
+    overflow: hidden; 
+}
+
+.reserve{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 34px;
+    color: white;
+
+}   
+.party{
+    margin-top: 100px;
+}
+.beers {
+    background-image: url(img/5.jpg);
+    max-width:100%;
+    width:auto;
+    height: auto;
+    background-image: cover ;
+    background-repeat: no-repeat;
+    position: center;
+    overflow: hidden; 
+}
+.footer{
+    background-image: url(img/footer-bg.png);
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    background-image: cover;
+    position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: white;
+}
+.social{
+    text-align: center;
+    margin-top: 100px;
+}
+.icons img{
+    margin: 30px;
+}
+.links{
+    display: flex;
+    margin-left: 300px;
+}
+.links li{
+    margin: 20px;
+}
+#p1{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+#p2{
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+}
